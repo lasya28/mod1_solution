@@ -1,7 +1,7 @@
 (function(){
   'use strict'
-  angular.module('myApp',[])
-  .controller('myCtrl',['$scope',function($scope){
+  angular.module('myProject',[])
+  .controller('myControl',['$scope',function($scope){
     $scope.name = '';
     $scope.count ="";
     var message = '';
